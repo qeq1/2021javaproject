@@ -15,7 +15,7 @@ public class TestCustomer {
          /*
         int [] arr  ={20,30,40,50};
                       20 40 50 0
-
+          我来修改了
          */
 
         int[] arr = {20, 30, 40, 50};
