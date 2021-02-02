@@ -1,0 +1,34 @@
+src:数据源
+srcpos: 数据源开始复制的下标
+des: 目标数组（目的地）
+despos: 目标数组开始的下标
+length: 要复制元素的数量
+System.arraycopy(src,srcpos,des ,despos,length);
+
+Throwable
+   ---Error
+   ---Exception
+       --- RuntimeException
+       --- CheckedException(检查异常 编译时异常 受检异常)
+           写完代码就报错
+
+处理异常的方式
+    -- try{}catch(){}finally
+       执行流程/顺序
+       没发生异常
+       发生了能捕获的异常
+       发生了不能捕获的异常
+       .......
+       final  finalize()  finally
+
+    --throw 抛出异常
+       运行时异常  方法声明处可以不用 throws 声明
+       检查异常  方法声明处必须用用 throws 声明
+
+自定义异常
+     1.创建一个类
+     2.继承一个异常类
+              运行时异常 继承 运行时异常类 RuntimeException
+              检查异常   继承 检查时异常类 FileNotFoundException
+
+     3.创建构造器

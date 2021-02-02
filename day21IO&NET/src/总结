@@ -1,0 +1,23 @@
+1.节点流 直接作用到文件上 参数是目标地址
+      FileInputStream
+      FileOutputStream
+      FileWriter
+      FileReader
+2.处理流 作用到流上的 参数是流
+
+     缓冲流： BufferedInputStream  byte 8192
+             BufferedOutputStream
+
+             BufferedReader  char 8192
+             BufferedWriter
+
+     转换流：字节流--》字符流
+           InputStreamReader  字节输入流
+           OutputStreamWriter
+
+     数据流
+          DataInputStream
+          DataOutputStream
+     对象流
+         ObjectInputStream
+         objectOutputStream
